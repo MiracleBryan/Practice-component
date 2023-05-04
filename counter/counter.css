@@ -1,0 +1,44 @@
+body {
+    background-image: url('https://static.runoob.com/images/mix/bgdesert.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    /* height: 1000px;
+    width: 1000px; */
+}
+
+.title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    color: orange;
+}
+
+.number {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+.btncontainer {
+    position: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    height: 45%;
+}
+.button {
+    background-color: rgb(166, 38, 38);
+    font-size: 70px;
+    width: 20%;
+    color: aquamarine;
+}
+
+.button2 {
+    background-color: rgb(7, 139, 60);
+    font-size: 70px;
+    width: 20%;
+    color: aquamarine;
+}

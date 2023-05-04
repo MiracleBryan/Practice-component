@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="counter.css">
+    </head>
+    <body>
+        <div class="all">
+            <h1 class="title">People entered:</h1>
+            <h2 class="number" id="count-el">0</h2>
+            <div class="btncontainer">
+                <div>
+                    <button class="button"  id="increasebtn" onclick="increment()">Count</button>
+                </div>
+                <div>
+                    <button class="button2"  id="savebtn" onclick="save()">Save</button>
+                </div>
+                <div>
+                    <p id="saveStr">
+                        Previous Save:
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        
+        <script src="counter.js"></script>
+    </body>
+</html>
