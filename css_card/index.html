@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>task1</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    html, body {
+      background-color: silver;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container {
+      background-color: white;
+      width: 1058px;
+      display: flex;
+      padding: 20px;
+      box-sizing: border-box;
+      height: 392px;
+    }
+    .left-box {
+      flex: 0 0 120px;
+      width: 120px;
+      display: flex;
+      align-items: center;
+    }
+    .left-box img {
+      position: relative;
+      top: -40px;
+    }
+    .right-box {
+      flex: 1;
+    }
+    .navbar-text {
+      display: inline-block;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 10px 20px;
+    }
+    .navbar-text.active {
+      color: #fff;
+      background-color: #007fff;
+      padding: 4px 20px;
+      border-radius: 4px;
+    }
+    .title {
+      color: #235cac;
+      margin: 10px 20px;
+      font-size: 26px;
+      font-weight: bold;
+    }
+    .text {
+      color: #555;
+      margin: 20px;
+      line-height: 40px;
+      font-size: 20px;
+      font-weight: 500;
+    }
+    .btn-container {
+      margin: 20px 40px;
+    }
+    .btn {
+      margin: 20px 0;
+      display: inline-block;
+      padding: 10px 30px;
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold;
+      background: linear-gradient(to right, #1db30e, #059201);
+      border-radius: 2px;
+    }
+    .link {
+      display: inline-block;
+      color: #007fff;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left-box">
+      <img src="./assets/hands.png" />
+    </div>
+    <div class="right-box">
+      <nav>
+        <span class="navbar-text active">澳大利亚</span>
+        <span class="navbar-text">新西兰</span>
+        <span class="navbar-text">全球</span>
+      </nav>
+      <h2 class="title">MAKE A DIFFIDENCE</h2>
+      <p class="text">
+        The world can be a very unfriendly place to some. Take the time just to check in with people and see if they're doing OK.
+      </p>
+      <div id="submit-button" class="btn-container">
+        <button class="btn">Help Someone OUT NOW</button>
+        <div class="link-container">
+          <span class="link">Systems and tools</span>
+          &nbsp;·&nbsp;
+          <span class="link">What's new</span>
+          &nbsp;·&nbsp;
+          <span class="link">Donate</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

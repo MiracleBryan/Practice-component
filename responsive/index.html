@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task2</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    html, body {
+      width: 100%;
+      height: 100%;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      width: 1200px;
+      height: 1289px;
+      background-color: #fff;
+    }
+    .top-container {
+      display: flex;
+      flex-direction: column;
+      color: white;
+      background-color: #316e74;
+      height: 800px;
+    }
+    .top-container .row {
+      display: flex;
+      justify-content: center;
+      margin: 30px 0;
+    }
+    .row p {
+      display: flex;
+      text-align: center;
+      width: 60%;
+    }
+    .row img {
+      margin: 0 20px;
+    }
+    .row a {
+      color: #fff;
+      text-decoration: underline;
+    }
+    .row.column {
+      flex-direction: column;
+      align-items: center;
+    }
+    .row.column h2{
+      margin-bottom: 10px;
+    }
+    .bottom-container {
+      display: flex;
+      background-color: #325074;
+      height: 489px;
+    }
+    .bottom-container .item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 33.3%;
+      height: 489px;
+    }
+
+    .item img {
+      margin: 10px 0 20px;
+    }
+
+    .item .title {
+      font-size: 26px;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    @media screen and (max-width: 1200px) {
+      .container {
+        width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 720px) {
+      .bottom-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="top-container">
+      <div class="row">
+        <h2>Balance your workload</h2>
+      </div>
+      <div class="row">
+        <p>Make sure you're balancing your intellectual work with your less intellectual work so that you can have a high output without burning out.</p>
+      </div>
+      <div class="row">
+        <img src="./assets/icon1.svg" />
+        <img src="./assets/icon2.svg" />
+        <img src="./assets/icon3.svg" />
+        <img src="./assets/icon4.svg" />
+      </div>
+      <div class="row">
+        <a>Blancing things now >></a>
+      </div>
+      <div class="row column">
+        <h2>Start early</h2>
+        <p>If you are start work late, you will pay interest on the debt. The best way to as little work as possible is to do is as early as possible.</p>
+      </div>
+      <div class="row">
+        <img src="./assets/icon5.svg" />
+        <img src="./assets/icon6.svg" />
+        <img src="./assets/icon7.svg" />
+        <img src="./assets/icon8.svg" />
+      </div>
+      <div class="row">
+        <a>Don't delay, get going >></a>
+      </div>
+    </div>
+    <div class="bottom-container">
+      <div class="item">
+        <img src="./assets/icon9.svg" />
+        <span class="title">Use a calendar</span>
+      </div>
+      <div class="item">
+        <img src="./assets/icon10.svg" />
+        <span class="title">Wake up early</span>
+      </div>
+      <div class="item">
+        <img src="./assets/icon11.svg" />
+        <span class="title">Eat well</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
