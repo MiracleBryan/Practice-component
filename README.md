@@ -1,2 +1,2 @@
 # Web-project
-Quick question and entertain 
+This is to practice js and react framework by some components.
